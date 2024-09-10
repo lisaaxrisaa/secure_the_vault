@@ -47,9 +47,11 @@ const thirtyNine = 50 - 11;
 // Should use const instead of let since these values will not change
 
 console.log(`${ten}-${forty}-${thirtyNine}`);
+// console log the three variables for debugging purposes
 alert(
   `You have received this message because you have been chosen to open an important vault. Here is the secret combination: ${ten}-${forty}-${thirtyNine}`
 );
+// A pop-up should appear when you open the browser showing the above string and combination of numbers. Used template literals to shorten the code
 
 // 1. Start by declaring variables with a const using a math equation that gives an output of 10 - 40 -39.
 // First variable ten, result of the equation will be 10
